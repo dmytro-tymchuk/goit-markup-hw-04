@@ -445,7 +445,21 @@ img {
   max-width: 264px;
 }
 
+.footer-descr-soc {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
 .footer-wrapper {
+}
+
+.footer-wrapper-logo {
+  margin-right: 120px;
+  align-items: baseline;
 }
 
 .footer-wrapper-social .footer-descr {
@@ -468,7 +482,8 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-soc-link:hover {
+.footer-soc-link:hover,
+.footer-soc-link:focus {
   background-color: #31d0aa;
 }
 
@@ -478,6 +493,5 @@ img {
 
 .container.footer-wrapper {
   display: flex;
-  gap: 120px;
 }
 /* ---------------FOOTER--------------- */
