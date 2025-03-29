@@ -424,6 +424,10 @@ img {
   padding-top: 100px;
 }
 
+.container.footer-wrapper {
+  align-items: baseline;
+}
+
 .footer-logo {
   font-weight: 700;
   font-size: 18px;
